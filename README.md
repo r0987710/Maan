@@ -12,10 +12,11 @@ Plagiarism is a serious offense with real consequences.
 
 | Student | Info |
 | --- | ---|
-| Name | (fill in your first name)       |
+| Name | (Maan)       |
 | Surname| (fill in your surname)  |
 | Class | (1ITF xx) |
 | Prior knowledge | (describe your prior knowledge about webdesign, none is totally fine!) |
 | Additional information | (is there something you want us to know about you?) |
 | Sinners-webspace | (correct url, e.g. https://account.sinners.be) |
 | Pexels-account | (correct url, e.g. https://www.pexels.com/@account-information) |
+
