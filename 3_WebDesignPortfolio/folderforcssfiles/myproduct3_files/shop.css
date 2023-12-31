@@ -1,0 +1,208 @@
+/* Basic Styles */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-size: 16px;
+}
+
+
+h1 {
+    
+    font-family: 'Pacifico', cursive;
+    color: #0077b6;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 30px;
+    border: 4px solid #023e8a;
+    padding: 12px;
+    margin: 4px 12px;
+    border-radius: 10px;
+}
+
+
+h2 {
+    
+    font-family: 'Gamja Flower', sans-serif;
+    text-align: center;
+    margin: 0px 20px;
+  padding: 5px;
+    border: 2px solid #023e8a;
+    border-radius: 25px;
+}
+
+h3 {
+    font-family: 'Gamja Flower', sans-serif;
+    color: #0096c7;  
+    border-radius: 35px;
+    border-bottom: 5px solid #023e8a;
+    text-transform:
+}
+
+
+
+p {
+    
+   
+   
+    font-family: 'Anton', sans-serif;
+    color: #00b4d8;
+    
+}
+
+
+li {
+    
+    background-color: #caf0f8;
+     margin: 0px 20px;
+  padding: 5px;
+    border: 2px solid #023e8a;
+    border-radius: 25px;
+    
+}
+
+
+
+
+
+
+
+#line {
+    
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 30px;
+   
+}
+
+
+.importantline {
+    
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+
+
+
+a {
+    margin: 20px;
+  padding: 1px 3px;
+    border: 5px solid #023e8a;
+    border-radius: 10px;
+      display: inline-block;
+    box-shadow: 5px 7px 5px rgba(0, 22, 4, .5);
+    outline: 10px solid #caf0f8;
+}
+
+
+
+
+footer {
+    
+    background-color: cornflowerblue;
+    text-align: center;
+    margin: 20px 10px 15px;
+    line-height: 30px;
+       
+}
+
+
+
+
+footer a{
+    
+    margin: 20px;
+  padding: 3px;
+    border: 4px solid #023e8a;
+    border-radius: 10px;
+      display: inline-block;
+}
+
+
+
+footer a:active {
+    
+    color: aqua;
+    
+    
+    
+}
+
+footer a:checked {
+    color: #023e8a;
+    
+}
+
+footer a:hover {
+    
+    
+    color: #caf0f8;
+    
+    
+}
+
+
+img {
+    
+    border-style: solid ;
+    border-color: #03045e;
+    border-width: 7px;
+    outline-offset: -2.3rem;
+    border-radius: 34px;
+    padding: 1.0rem;
+     box-shadow: 5px 7px 5px cornsilk;
+    outline: 10px solid #caf0f8;
+    
+    
+}
+
+
+
+
+table,
+td,
+th {
+    
+    border: 1px solid #03045e;
+    
+    
+}
+
+.coloredtitel tr:first-child {
+    background-color: #03045e;
+    color: #0096c7;
+}
+
+
+.styleparagraph {
+    
+    border-left: 14px solid #023e8a;
+    background-color: cornsilk;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

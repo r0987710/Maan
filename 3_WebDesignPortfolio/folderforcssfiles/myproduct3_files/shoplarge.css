@@ -1,0 +1,28 @@
+/* Styles for Larger Screens */
+body {
+    background-color: #eee; /* Change background color for larger screens */
+}
+
+nav ul {
+    display: flex; /* Display navigation links side by side */
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+.product {
+    display: flex; /* Display products side by side */
+}
+
+.product img {
+    max-width: 50%; /* Adjust image width for larger screens */
+}
+
+.product-details {
+    margin-left: 20px;
+}
+
+footer div {
+    display: flex; /* Display social links side by side */
+    justify-content: space-between

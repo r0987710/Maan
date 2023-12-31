@@ -1,0 +1,701 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+
+
+
+
+@import url('https: //cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+
+/* Extract a color scheme from an image you use in your web page */
+
+/* Mobile First Styles: Small Screen */
+body {
+background-color: #D9D496;
+font-family: 'Kanit', sans-serif;
+line-height: 2.5;
+padding: 2rem;
+    
+}
+
+/* Header Styles */
+header {
+    background-color: #D9D496; /* Derived color from nature photo */
+    padding: 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    text-shadow:  2px 2px 5px #6F7302;
+    color: #384001;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+ /* Styling for navigation */
+ .uppericons:nav {
+     position: relative;
+     width: 100vw;
+     /* Full width of the viewport */
+     height: 100vh;
+     /* Full height of the viewport */
+     background: url('yo.jpg') center/cover no-repeat;
+     /* Replace 'your-image.jpg' with your image URL */
+     display: flow-root;
+     align-items: flex-start;
+     justify-content: flex-start;
+
+ }
+
+
+/* Styling for lists */
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #6F7302;
+  display: inline;
+}
+
+li a {
+  display: inline;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+    display: inline;
+}
+
+
+
+
+
+
+
+
+/* Styling for headings */
+h1 {
+    font-size: 40px;
+    background-image: url(bro.jpg);
+    text-transform: capitalize;
+    text-shadow: 2px 2px 9px #D9D496;
+    color: #ADB126;
+    border: 20px solid #6F7302;
+    text-align: center;
+
+   
+}
+ 
+
+
+
+    
+}
+
+/* uppericons Section Styles */
+
+.uppericons {
+    padding: .5rem;
+    border: 1px solid #4D9900;
+    background-color: rgba(77, 153, 0, 0.2);
+}
+
+.uppericons h1 {
+    color: #fff; /* Text color on hero section */
+    font-size: 1px;
+    font-family: 'YourFont2', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Oversized background image <200kb with horizontally and
+vertically centered text in a flexible layout (= the so called hero
+section) */
+
+
+.herosection {
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* All hyperlinks: nicely styled, make sure the hover state is very clear
+(use a different color and/or underline) */
+
+a:hover {
+    background-color: #F2F2F2; /* Choose your desired color */
+    transition: color 0.3s ease-in-out;
+    font-weight: bold;
+    box-shadow: 3px 16px 15px #888888;
+    text-decoration: underline;
+    
+}
+
+a {
+    transition: color 0.3s ease-in-out;
+}
+
+
+
+/* Floating elements  */
+
+.naturephoto {
+    
+    float: left;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.naturephoto2 {
+    
+    float: right;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    
+}
+
+
+/* styling paragraphs  */
+
+section {
+    box-shadow: 1px 5px 15px 2px; 
+    text-align: justify-all;
+    margin-left: 1rem;
+    background-color: #BCBF60;
+    padding: .2.5rem 1rem;
+}
+
+#whatiswebdesign {
+    
+    box-shadow: 1px 5px 15px; 
+    text-align: justify-all;
+    margin-left: 1rem;
+    background-color: #6F7302;
+    padding: .2.5rem 9rem;
+    
+}
+
+#visualdesign {
+    
+    box-shadow: 1px 5px 15px 2px; 
+    text-align: justify-all;
+    margin-left: 1rem;
+    background-color: #ADB126;
+    padding: .2.5rem 12rem;
+    
+}
+
+#interactiondesign {
+    
+    box-shadow: 1px 5px 15px 2px; 
+    text-align: justify-all;
+    margin-left: 1rem;
+    background-color: #384001;
+    padding: .2.5rem 7rem;
+    
+}
+
+#uidesign {
+    
+   box-shadow: 1px 5px 15px 2px; 
+    text-align: justify-all;
+    margin-left: 1rem;
+    background-color: #BCBF60;
+    padding: .2.5rem 1rem; 
+    
+}
+
+
+
+/* styling my biggest fuck you: Responsive images <100kB  */
+#mybiggest {
+
+    float: right;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    height: 300px;
+    width: 500px;
+    border: 5px 5px solid #333; /* Optional border for styling */
+    border-radius: 10px; /* Optional border-radius for rounded corners */
+    box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.3); /* Optional box shadow for depth */
+}
+
+#mybiggest2 {
+
+    float: left;
+    margin-right: 3rem;
+    margin-bottom: 7rem;
+    height: 300px;
+    width: 500px;
+    border: 5px 5px solid #333; /* Optional border for styling */
+    border-radius: 10px; /* Optional border-radius for rounded corners */
+    box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.3); /* Optional box shadow for depth */
+}
+
+#mybiggest3 {
+
+    float: right;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    height: 300px;
+    width: 500px;
+    border: 5px 5px solid #333; /* Optional border for styling */
+    border-radius: 10px; /* Optional border-radius for rounded corners */
+    box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.3); /* Optional box shadow for depth */
+    
+}
+
+
+
+#mybiggest4 {
+
+    float: left;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    height: 300px;
+    width: 500px;
+    border: 5px 5px solid #333; /* Optional border for styling */
+    border-radius: 10px; /* Optional border-radius for rounded corners */
+    box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.3); /* Optional box shadow for depth */
+}
+
+#mybiggest5 {
+
+    float: right;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    height: 300px;
+    width: 500px;
+    border: 5px 5px solid #333; /* Optional border for styling */
+    border-radius: 10px; /* Optional border-radius for rounded corners */
+    box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.3); /* Optional box shadow for depth */
+}
+
+
+
+#mybiggest6 {
+
+    float: left;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    height: 300px;
+    width: 500px;
+    border: 5px 5px solid #333; /* Optional border for styling */
+    border-radius: 10px; /* Optional border-radius for rounded corners */
+    box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.3); /* Optional box shadow for depth */
+}
+
+
+/* Styles bigfooter */
+
+#bigfooter {
+    
+      background-color: #6F7302;
+      text-align: center;
+      padding: 0.4em;
+      position: static;
+      bottom: 2px;
+    
+    
+    
+}
+
+
+/* Styles figcapionorsmt */
+
+#figcapionorsmt {
+    text-align-last: center;
+    color: #D9D496;
+    text-shadow: 2px 3px #BCBF60;
+    
+}
+
+
+
+
+
+/* Styles paragraphoffooter */
+
+#paragraphoffooter {
+    
+    text-align-last: right;
+    color: #D9D496;
+    text-shadow: 2px 3px #BCBF60;
+    
+}
+
+
+
+
+
+
+
+/* Footer: nicely styled, provide useful links  */
+footer a {
+    display: flex;
+    float: center;
+    padding: 10px 20px;
+    background-color: #BCBF60;
+    margin-right: 15px; 
+    text-decoration: none;
+}
+
+
+footer a:hover {
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+/* Body Styles for Medium Screens */
+@media screen and (min-width: 768px) {
+   
+    
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+
+body {
+    line-height: 2.5;
+    padding: 2rem;
+}
+    
+    
+    /* Header Styles */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+     /* source: "https://www.w3schools.com/css/css_navbar_horizontal.asp" i copied the example but i change some aspects of it*/
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #6F7302;
+     display: inline;
+}
+
+li a {
+  display: inline;
+  color: #6F7302;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #D9D496;
+  color: white;
+    display: inline;
+}
+
+    /* Main Section Styles */
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    /* Content Columns Styles */
+    .column {
+        flex: 1;
+        margin: 10px;
+    }
+    
+
+    /* Responsive Images for Medium Screens */
+    img {
+        max-width: 25px;
+        height: 25px;
+}
+
+/*Images and text side by side, in columns, arranged with flexbox2 */ 
+  .mydad {
+    display: flex;
+    flex-wrap: nowrap; /* default value */
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #0066CC;
+    background-color: rgba(0, 102, 204, 0.2);
+}  
+
+
+
+
+
+
+
+
+
+/* Horizontal navigation bar with a flexible layout */
+/* specifically the top 6 icons */
+
+nav {
+    background-color: #BCBF60;
+    color: #6F7302;
+    padding: 13px;
+    box-shadow: 1px 2px;
+    margin-bottom: 25px;
+    border: 1px solid #BCBF60;
+    display:inline-table;
+    justify-content: spce-between;
+    align-items: center;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+    
+nav a.active {
+    background-color: #555;
+    color: #fff;
+}
+
+
+
+
+nav a:hover {
+    background-color: #ADB126;
+    
+    
+}
+
+
+
+nav a {
+    text-shadow: 2px 2px 9px #D9D496;
+    color: #6F7302;
+    padding: 8px 12px;
+    margin: 3px 10px;
+    border-radius: 3px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Body Styles for Large Screens */
+
+
+
+@media screen and (min-width: 1200px) {
+    /* Header Styles */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+ 
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+
+body {
+    line-height: 2.5;
+    padding: 2rem;
+}
+
+  /* Default styles for horizontal navigation bar */  
+ nav {
+  display: flex;
+    padding: 10px 4px 6px;
+  justify-content: space-around;
+  background-color: #ADB126;
+  padding: 10px 4px 6px;
+    margin-left: auto;
+}  
+
+
+ /* Responsive Images for Large Screens */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+
+
+#mybiggestfuckyou {
+
+    float: right;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    height: 300px;
+    width: 500px;
+    border: 5px 5px solid #333; /* Optional border for styling */
+    border-radius: 10px; /* Optional border-radius for rounded corners */
+    box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.3); /* Optional box shadow for depth */
+}
+
+
+
+
+
+/*Small
+screens:
+
+• Fonts: you decide, Google Fonts are required, style in a different way -
+create your own style.
+
+• Colors: derived from a nature photo, for a wide audience
+
+• Header: nicely styled navigation bar with SVG logo and hyperlinks,
+vertically flexed
+
+• Oversized background image <200kb with horizontally and
+vertically centered text in a flexible layout (= the so called hero
+section)
+
+• Responsive images <100kB
+
+• Font Awesome icons to clarify content/hyperlinks etc.
+
+• All hyperlinks: nicely styled, make sure the hover state is very clear
+(use a different color and/or underline)
+
+• Footer: nicely styled, provide useful links 
+
+
+
+Medium
+screens
+
+• Horizontal navigation bar with a flexible layout
+
+• Images and text side by side, in columns, arranged with flexbox2
+
+• Also provide content in more than 2 columns
+
+
+
+
+
+
+Large
+screens
+• Horizontal navigation bar, flexed in a different way
+• Images and text side by side, in columns, arranged with flexbox3
+• Also provide content in more than 2 columns
+• Make sure the content on the page is in the centre (horizontally) and has
+a consistent width
