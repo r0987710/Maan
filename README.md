@@ -13,10 +13,10 @@ Plagiarism is a serious offense with real consequences.
 | Student | Info |
 | --- | ---|
 | Name | (Maan)       |
-| Surname| (fill in your surname)  |
-| Class | (1ITF xx) |
-| Prior knowledge | (describe your prior knowledge about webdesign, none is totally fine!) |
-| Additional information | (is there something you want us to know about you?) |
-| Sinners-webspace | (correct url, e.g. https://account.sinners.be) |
-| Pexels-account | (correct url, e.g. https://www.pexels.com/@account-information) |
+| Surname| (Abdulmohsin)  |
+| Class | (1ITF 05) |
+| Prior knowledge | (None) |
+| Additional information | (i am afraid that me using Ai(chatgpt) and webdesign essentials netlify website is considered some form of plagirisim) |
+| Sinners-webspace | (correct url, e.g. [https://account.sinners.be](https://panel.sinners.be/domain)) |
+| Pexels-account | (correct url, e.g. [https://www.pexels.com/@account-information](https://www.pexels.com/nl-nl/@maan-abdulmohsin-735935893/)https://www.pexels.com/nl-nl/@maan-abdulmohsin-735935893/) |
 
